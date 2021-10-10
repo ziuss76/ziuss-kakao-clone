@@ -1,0 +1,120 @@
+#friends-display-link {
+  text-align: center;
+  display: block;
+  background-color: whitesmoke;
+  padding: 15px 0px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: -10px;
+}
+
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+  padding-right: 5px;
+}
+.friends-screen {
+  padding: 0px 25px;
+}
+
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: var(--main-border);
+  padding-top: 15px;
+}
+.friends-screen__channel-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+.open-chat__header span {
+  opacity: 0.6;
+}
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.open-post__hashtags {
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+.open-post__members {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+}
+.open-post__members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.open-post__member-count {
+  opacity: 0.5;
+  font-size: 16px;
+}
+.open-post__members .divider {
+  width: 1px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.open-post__member-status {
+  color: pink;
+}
+.open-post__photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+.open-post__photo {
+  position: relative;
+}
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+}
+.open-post__heart-count span {
+  margin-left: 3px;
+}
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 140px;
+  animation: hideSplashScreen 0.5s ease-in-out forwards;
+  animation-delay: 0.7s;
+}
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
