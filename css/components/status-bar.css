@@ -15,7 +15,7 @@
 }
 .status-bar__column:last-child {
   display: flex;
-  justify-content: flex-end;
+  justify-content: end;
   align-items: center;
 }
 
